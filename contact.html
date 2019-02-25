@@ -2,43 +2,74 @@
 <html lang="en-us">
 
 <head>
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-<title>Esin Gokgoz</title> 
 
+    <meta charset="UTF-8">
+    <title>Esin Gokgoz</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
 </head>
 
-<body> 
-    
-<div class="header">
-    <h1>Esin Gokgoz</h1>      
-        <nav class="nav ">
-            <a href="index.html" >About</a> |
-            <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
-        </nav>
-</div>
-    </br> </br>
-<div class="content">
-<h2 class="h2-title">Contact Me</h2>
-<hr>
-<form>
-    <label for="fname" class="contactformitems">Name</label> </br>
-    <input type="text" id="fname" name="firstname" placeholder="Full Name" class="contactformitems"></br>
+<body>
+    <!--Static Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-left:13%; padding-right:13%;">
+        <a class="navbar-brand" href="#">Esin Gokgoz</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="index.html">About</a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+            </div>
+        </div>
+    </nav>
 
-    <label for="email" class="contactformitems">Email</label></br>
-    <input type="text" id="email" name="eaddress" placeholder="email@gmail.com" class="contactformitems"></br>
+    <!-- Main content of the page-->
+    <div class="container border">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="teal">Esin Gokgoz</h1>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" class="form-control" placeholder="Enter full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleTextarea">Message</label>
+                        <textarea class="form-control" id="Textarea" rows="3" placeholder="Enter message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="footer">
+            <p class="pfooter">Copyright &copy;</p>
+        </div>
+    </div>
 
-    <label for="message" class="contactformitems">Message</label></br>
-    <input type="text" id="message" name="email" class="contactformitems" style="height: 100px;"></br>
 
-    <input type="submit" value="Submit" class="submitbutton">
-</form>
 
-</div>
+
 </body>
 
-
-<footer class="footer">
-<p class="pfooter">Copyright &#174;</p>
-</footer>
 </html>

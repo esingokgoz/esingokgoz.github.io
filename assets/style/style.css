@@ -3,14 +3,14 @@ body{
     background-repeat: repeat;
 }
 .navbar-brand{
-    background-color: #4aaaa5;
+    background-color: #F5AC3C;
     color: #ffffff !important;
     padding: 1.25rem;
 
 }
 
 .teal{
-    color: #4aaaa5;
+    color: #F5AC3C;
 }
 
 .container {
@@ -34,7 +34,7 @@ body{
 
 /** Contact Me Page CSS */
 .btn{
-    background-color: #4aaaa5;
+    background-color: #F5AC3C;
     border: none;
     margin-bottom: 5px;
 }
@@ -44,7 +44,7 @@ body{
 .footer{
     width: 100%;
     background-color: #666666;
-    border-top: solid 5px #4aaaa5;
+    border-top: solid 5px #F5AC3C;
     padding-top: 2%;
     padding-bottom: 2px;
     float: bottom;
